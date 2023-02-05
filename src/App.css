@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@200;400;600;700&family=Roboto:wght@100;300;400;500&display=swap");
+* {
+  /* margin: 10px; */
+  font-family: "Poppins";
+  color: #333;
+  /* background-color: yellow; */
+}
+
+input {
+  height: 10px;
+  margin: 20px;
+  padding: 10px;
+}
+
+h1 {
+  margin: 20px;
+  font-family: Pacifico;
+}
+
+h2 {
+  font-family: Pacifico;
+}
+
+.characterContainer {
+  margin: 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 5fr 1fr 1fr;
+}
+
+.characterContainerLeft {
+  margin: 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
+}
+img {
+  width: 100px;
+}
+
+.item {
+  margin: 10px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.Left {
+  display: flex;
+  order: 5;
+}
+
+.material-icons.pink {
+  color: #e91e63;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+}
+
+/* .container h2 {
+  font-size: larger;
+  margin-top: auto;
+} */
+
+.logo {
+  width: 30%;
+  /* height: auto; */
+}
